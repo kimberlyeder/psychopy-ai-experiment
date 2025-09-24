@@ -21,7 +21,7 @@ This is a psychological experiment built with PsychoPy that uses Ollama (Llama2)
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/psychopy-ai-experiment.git
+git clone https://github.com/kimberlyeder/psychopy-ai-experiment.git
 cd psychopy-ai-experiment
 ```
 
@@ -36,7 +36,7 @@ source psychopy_env/bin/activate
 
 ### 3. Install dependencies
 ```bash
-pip install psychopy
+pip install -r requirements.txt
 ```
 
 ### 4. Install Ollama
@@ -65,7 +65,7 @@ python experiment.py
 ## File Structure
 ```
 ├── experiment.py          # Main experiment file
-├── experiment_fixed.py    # Alternative version
+├── requirements.txt       # Python dependencies
 ├── experiment_data.csv    # Generated data (gitignored)
 ├── psychopy_env/         # Python environment (gitignored)
 ├── .gitignore           # Git ignore rules
