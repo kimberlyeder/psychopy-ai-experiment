@@ -115,4 +115,4 @@ LLM_MODEL = "llama2"  # or "mistral", "codellama", etc.
 This project is for academic/research use. Please cite appropriately if used in publications.
 
 ## Contact
-[Your contact information here]
+kimberly.eder@t-online.de
